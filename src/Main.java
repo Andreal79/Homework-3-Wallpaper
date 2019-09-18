@@ -2,18 +2,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double length;
-        double width;
-        double height;
 
+        double length;
         System.out.print("Введите длину Вашей комнаты в метрах: ");
         length = input.nextDouble();
         System.out.println("Длина Вашей комнаты: " + length + " м.");
 
+        double width;
         System.out.print("Введите ширину Вашей комнаты в метрах: ");
         width = input.nextDouble();
         System.out.println("Длина Вашей комнаты: " + width + " м.");
 
+        double height;
         System.out.print("Введите высоту Вашей комнаты в метрах: ");
         height = input.nextDouble();
         System.out.println("Высота Вашей комнаты: " +  height + " м.");
